@@ -1,0 +1,17 @@
+[
+  {
+    "task_id": "HumanEval/0",
+    "TASK": "Write a Python function `has_close_elements(numbers: List[float], threshold: float) -> bool` that checks whether any two elements in the list are closer than the given threshold.",
+    "test": "assert has_close_elements([1.0, 2.0, 3.0], 0.5) == False"
+  },
+  {
+    "task_id": "HumanEval/1",
+    "TASK": "Write a Python function `separate_paren_groups(paren_string: str) -> List[str]` that separates groups of nested parentheses.",
+    "test": "assert separate_paren_groups('( ) (( )) (( )( ))') == ['()', '(())', '(()())']"
+  },
+  {
+    "task_id": "HumanEval/2",
+    "TASK": "Write a Python function `truncate_number(number: float) -> float` that returns only the decimal part of a float.",
+    "test": "assert truncate_number(3.5) == 0.5"
+  }
+]

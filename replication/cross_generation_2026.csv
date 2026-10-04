@@ -1,0 +1,12 @@
+pattern_id,pattern_name,primary_class,task_scope,pts_claude_opus_4_6,pts_qwen3_14b,class_stable,notes
+P05,Recipe / Template,I,Math+IF,~0.85,~0.79,Yes — Class I retained,Highest-scoring on both new models
+P15,Context Manager,I,Math+IF,~0.85,~0.79,Yes — Class I retained,
+P18,Auto-CoT,I,Math+IF,~0.85,~0.79,Yes — Class I retained,
+P23,Chain of Draft,I,Math+IF,~0.85,~0.79,Yes — Class I retained,
+P11,Constraint Reframing,IV,Math+IF,0.09,Class IV,Yes — Class IV retained,Fingerprint intensifies: Opus4.6=0.09 vs Opus3=0.12
+P01,Meta Language Creation,IV,Math+IF,Class IV,Class IV,Yes — Class IV stable,
+P14,Infinite Generation,III,Math+IF,Class III,Class III,Yes — Class III stable (corrected taxonomy),
+P17,Chain of Thought,II,Math,0.86,0.84,Yes — Class II retained,Qwen3-14B CoT PTS=0.84 near LLaMA-3-70B (0.82); gap narrowing
+P19,Self-Consistency,II,Math,0.85,0.83,Yes — Class II retained,
+P02,Output Automater,II,IF,~0.82,~0.77,Yes — Class II retained,
+P06,Fact Check List,II,IF,~0.79,~0.74,Yes — Class II retained,

@@ -1,0 +1,27 @@
+[
+  {
+    "task_id": "ifeval_001",
+    "TASK": "Write a short paragraph about the water cycle. Your response must contain exactly 3 sentences. Each sentence must start with a capital letter.",
+    "constraints": [
+      "exactly_3_sentences",
+      "capitalized_sentences"
+    ]
+  },
+  {
+    "task_id": "ifeval_002",
+    "TASK": "List 5 programming languages. Present them as a numbered list. Do not include any explanation, just the names.",
+    "constraints": [
+      "numbered_list",
+      "exactly_5_items",
+      "no_explanation"
+    ]
+  },
+  {
+    "task_id": "cfbench_001",
+    "TASK": "Summarize the following in fewer than 50 words and use only simple vocabulary: [passage about photosynthesis]",
+    "constraints": [
+      "max_50_words",
+      "simple_vocabulary"
+    ]
+  }
+]

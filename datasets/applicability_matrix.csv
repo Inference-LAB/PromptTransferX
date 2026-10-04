@@ -1,0 +1,25 @@
+pattern_id,pattern_name,MATH,COMMON,CODE,MED,CW,HALL,IF
+P01,Meta Language Creation,-,S,-,-,S,-,P
+P02,Output Automater,S,S,P,S,S,-,P
+P03,Persona,-,-,S,S,P,S,S
+P04,Visualization Generator,-,-,P,-,S,-,S
+P05,Recipe / Template,S,S,P,S,S,-,P
+P06,Fact Check List,P,P,-,P,-,P,S
+P07,Reflection,S,S,S,P,S,P,S
+P08,Question Refinement,S,P,-,P,-,-,P
+P09,Alternative Approaches,P,P,P,S,S,S,S
+P10,Cognitive Verifier,P,P,-,P,-,P,S
+P11,Constraint Reframing,-,-,-,S,S,P,S
+P12,Flipped Interaction,-,S,-,S,P,-,P
+P13,Game Play,-,-,-,-,P,-,S
+P14,Infinite Generation,-,-,S,-,P,-,S
+P15,Context Manager,S,S,P,P,S,S,P
+P16,Context Ignoring Resistance,-,S,S,P,-,P,P
+P17,Chain of Thought,P,P,P,P,-,S,P
+P18,Auto-CoT,P,P,P,P,-,S,P
+P19,Self-Consistency,P,P,P,P,-,S,P
+P20,ReAct,P,P,P,P,-,-,P
+P21,Self-Refine,S,S,P,S,P,P,S
+P22,Logic-of-Thought,P,P,S,S,-,-,S
+P23,Chain of Draft,P,P,P,P,-,S,P
+P24,Narrative-of-Thought,P,P,-,S,P,-,S

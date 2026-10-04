@@ -1,0 +1,35 @@
+[
+  {
+    "task_id": "medqa_001",
+    "TASK": "A 45-year-old man presents with chest pain. ECG shows ST elevation in leads II, III, and aVF. Which coronary artery is most likely occluded?",
+    "choices": {
+      "A": "Left anterior descending",
+      "B": "Right coronary artery",
+      "C": "Left circumflex",
+      "D": "Left main"
+    },
+    "answer": "B"
+  },
+  {
+    "task_id": "medqa_002",
+    "TASK": "A patient with known hypertension presents with a blood pressure of 180/110 mmHg and headache. Which antihypertensive class is most appropriate for immediate reduction?",
+    "choices": {
+      "A": "Beta-blocker",
+      "B": "Thiazide diuretic",
+      "C": "IV labetalol or nicardipine",
+      "D": "ACE inhibitor"
+    },
+    "answer": "C"
+  },
+  {
+    "task_id": "medqa_003",
+    "TASK": "Which of the following is the first-line treatment for uncomplicated UTI in a non-pregnant woman?",
+    "choices": {
+      "A": "Ciprofloxacin 500mg twice daily",
+      "B": "Nitrofurantoin 100mg twice daily x5 days",
+      "C": "Trimethoprim-sulfamethoxazole DS twice daily",
+      "D": "Amoxicillin 500mg three times daily"
+    },
+    "answer": "B"
+  }
+]

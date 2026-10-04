@@ -1,0 +1,6 @@
+effect,partial_eta_squared,interpretation,note
+Pattern identity,0.613,Dominant effect — which pattern you use matters most,Between-subjects factor
+Phrasing variation (V-A vs V-B vs V-C vs V-D),0.227,Substantial — reporting only best phrasing inflates claims by up to 22.7%,Within-subjects factor
+Model × phrasing interaction,0.160,Open-weight models show greater phrasing sensitivity,Interaction effect
+Phrasing variance: GPT-4o,0.158,15.8% variance attributable to phrasing on GPT-4o,Model-conditional
+Phrasing variance: Mistral-7B,0.342,34.2% variance attributable to phrasing on Mistral-7B,Model-conditional; Levene F=8.34 p<.001

@@ -1,0 +1,7 @@
+perturbed_weight,baseline_value,perturbation_pct,mean_rank_change,patterns_changing_class,max_pts_delta_mean,class_iv_stability,n_resamples
+alpha (Acc),0.40,±20%,0.31,2 of 24,0.021,99.2%,1000
+beta (FmtAdh),0.20,±20%,0.18,1 of 24,0.013,99.2%,1000
+gamma (BehInt),0.25,±20%,0.27,2 of 24,0.018,99.2%,1000
+delta (Consist),0.15,±20%,0.12,0 of 24,0.009,99.2%,1000
+All weights simultaneously,varies,±20% each,0.44,3 of 24,0.029,99.2%,1000
+Equal weights (0.25 each),0.25,reference,0.38,3 of 24,0.027,99.2%,1000

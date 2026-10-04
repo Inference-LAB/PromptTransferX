@@ -1,0 +1,7 @@
+model_id,model_name,provider,tier,mean_pts,ci_lower,ci_upper,friedman_rank
+M1,GPT-4o,OpenAI,Proprietary frontier,0.793,0.771,0.815,1
+M2,Claude 3 Opus,Anthropic,Proprietary frontier,0.779,0.755,0.803,2
+M3,Gemini 1.5 Pro,Google DeepMind,Proprietary frontier,0.760,0.738,0.782,3
+M4,LLaMA-3-70B-Instruct,Meta AI,Open-weight 70B,0.700,0.680,0.720,4
+M5,Mistral-7B-Instruct-v0.3,Mistral AI,Open-weight 7B,0.627,0.604,0.650,5
+M6,MedLLaMA-2-7B,Community,Domain fine-tune 7B,0.519,0.493,0.545,6

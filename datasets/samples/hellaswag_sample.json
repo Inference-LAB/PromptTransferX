@@ -1,0 +1,35 @@
+[
+  {
+    "task_id": "hs_001",
+    "TASK": "A woman is outside with a bucket and a dog. The dog is running around trying to avoid a bath. She rinses the dog with the hose and then...",
+    "choices": [
+      "A: applies soap to the dog.",
+      "B: turns off the hose.",
+      "C: washes the dog's face with soap.",
+      "D: has the dog dry off."
+    ],
+    "answer": "A"
+  },
+  {
+    "task_id": "hs_002",
+    "TASK": "Roof shingle removal: A man is sitting on a roof. He...",
+    "choices": [
+      "A: is using wrap to wrap a pair of skis.",
+      "B: is ripping level tiles off.",
+      "C: is holding a rubik's cube.",
+      "D: starts pulling up roofing on a roof."
+    ],
+    "answer": "D"
+  },
+  {
+    "task_id": "hs_003",
+    "TASK": "Making a cake: Several eggs are broken into a bowl. Flour and butter are added. The ingredients...",
+    "choices": [
+      "A: are mixed together.",
+      "B: are placed in the oven.",
+      "C: are removed from the bowl.",
+      "D: are separated."
+    ],
+    "answer": "A"
+  }
+]

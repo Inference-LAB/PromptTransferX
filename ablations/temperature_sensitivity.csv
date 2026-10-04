@@ -1,0 +1,10 @@
+pattern_id,pattern_name,volatility_class,model_id,model_name,task,temp_0.0,temp_0.3,temp_0.7,temp_1.0,max_delta,finding
+P05,Recipe / Template,I,M1,GPT-4o,Math+IF,0.84,0.83,0.82,0.81,0.03,Temperature-robust; Class I stable across all conditions
+P05,Recipe / Template,I,M2,Claude 3 Opus,Math+IF,0.82,0.82,0.81,0.80,0.02,Temperature-robust
+P05,Recipe / Template,I,M5,Mistral-7B-Instruct,Math+IF,0.73,0.72,0.71,0.70,0.03,Temperature-robust even on 7B model
+P07,Reflection,II*,M1,GPT-4o,Math+IF,0.79,0.78,0.77,0.73,0.06,Proprietary: low temperature sensitivity (delta<=0.06)
+P07,Reflection,II*,M2,Claude 3 Opus,Math+IF,0.82,0.81,0.80,0.78,0.04,Claude: low temp sensitivity on non-refusal variants
+P07,Reflection,II*,M5,Mistral-7B-Instruct,Math+IF,0.59,0.53,0.47,0.41,0.18,Mistral: HIGH temp sensitivity; -0.18 at T=1.0 vs T=0.0
+P11,Constraint Reframing,IV,M1,GPT-4o,Math+IF,0.34,0.31,0.28,0.24,0.10,High variance across temps; Class IV confirmed at all temps
+P11,Constraint Reframing,IV,M2,Claude 3 Opus,Math+IF,0.12,0.11,0.10,0.08,0.04,Fingerprint intensifies at higher temps; T=1.0 PTS=0.08
+P11,Constraint Reframing,IV,M5,Mistral-7B-Instruct,Math+IF,0.72,0.66,0.58,0.47,0.25,PTS range 0.47-0.72; temperature amplifies volatility

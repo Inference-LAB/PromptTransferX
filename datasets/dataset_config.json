@@ -1,0 +1,80 @@
+{
+  "tasks": {
+    "MATH": {
+      "name": "Mathematical Reasoning",
+      "dataset": "gsm8k",
+      "split": "test",
+      "n_instances": 1319,
+      "metric": "exact_match",
+      "hf_path": "gsm8k",
+      "hf_config": "main",
+      "temperature": 0.0,
+      "answer_format": "numeric"
+    },
+    "COMMON": {
+      "name": "Commonsense Inference",
+      "dataset": "hellaswag",
+      "split": "validation",
+      "n_instances": 10042,
+      "metric": "accuracy_mc",
+      "hf_path": "Rowan/hellaswag",
+      "temperature": 0.0,
+      "answer_format": "multiple_choice_ABCD"
+    },
+    "CODE": {
+      "name": "Code Generation",
+      "dataset": "humaneval",
+      "split": "test",
+      "n_instances": 164,
+      "metric": "pass_at_1",
+      "hf_path": "openai_humaneval",
+      "temperature": 0.0,
+      "answer_format": "python_function"
+    },
+    "MED": {
+      "name": "Medical QA",
+      "dataset": "medqa_usmle",
+      "split": "test",
+      "n_instances": 1273,
+      "metric": "accuracy_mc",
+      "hf_path": "bigbio/med_qa",
+      "hf_config": "med_qa_en_source",
+      "temperature": 0.0,
+      "answer_format": "multiple_choice_ABCD"
+    },
+    "CW": {
+      "name": "Creative Writing",
+      "dataset": "writingprompts",
+      "split": "sampled",
+      "n_instances": 300,
+      "metric": "judge_score_1_5",
+      "hf_path": "euclaise/writingprompts",
+      "sampling": "stratified_random",
+      "temperature": 0.7,
+      "answer_format": "free_text"
+    },
+    "HALL": {
+      "name": "Hallucination Resistance",
+      "dataset": "truthfulqa",
+      "split": "validation",
+      "n_instances": 817,
+      "metric": "truthful_and_informative_pct",
+      "hf_path": "truthful_qa",
+      "hf_config": "generation",
+      "temperature": 0.0,
+      "answer_format": "free_text"
+    },
+    "IF": {
+      "name": "Instruction Following",
+      "dataset": "ifeval+cfbench",
+      "split": "test",
+      "n_instances_ifeval": 541,
+      "n_instances_cfbench_sample": 200,
+      "metric": "prompt_level_strict_accuracy",
+      "hf_path_ifeval": "google/IFEval",
+      "hf_path_cfbench": "opencompass/CFBench",
+      "temperature": 0.0,
+      "answer_format": "constrained_text"
+    }
+  }
+}

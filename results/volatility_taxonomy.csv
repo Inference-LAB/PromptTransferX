@@ -1,0 +1,25 @@
+pattern_id,pattern_name,transfer,volatility_class,class_label,psi,promptprism_level,correction_note
+P05,Recipe / Template,0.82,I,Stable,0.11,Structural,
+P15,Context Manager,0.78,I,Stable,0.14,Structural,
+P18,Auto-CoT,0.77,I,Stable,0.11,Structural,
+P23,Chain of Draft,0.75,I,Stable,0.12,Structural,
+P02,Output Automater,0.74,II,Context-Sensitive,0.15,Structural,
+P03,Persona,0.74,II,Context-Sensitive,0.15,Semantic,
+P09,Alternative Approaches,0.74,II,Context-Sensitive,0.14,Structural,
+P17,Chain of Thought,0.73,II,Context-Sensitive,0.12,Structural,
+P06,Fact Check List,0.73,II,Context-Sensitive,0.16,Structural,
+P19,Self-Consistency,0.71,II,Context-Sensitive,0.13,Structural,
+P08,Question Refinement,0.70,II,Context-Sensitive,0.17,Structural,
+P24,Narrative-of-Thought,0.60,II,Context-Sensitive,0.22,Semantic/Structural,Corrected from III: 0.60 = lower bound of Class II
+P07,Reflection,0.66,II*,Context-Sensitive (Claude-Divergent),0.20,Semantic/Pragmatic,
+P10,Cognitive Verifier,0.66,II*,Context-Sensitive (Claude-Divergent),0.17,Structural,
+P21,Self-Refine,0.66,II*,Context-Sensitive (Claude-Divergent),0.18,Semantic/Pragmatic,
+P16,Context Ignoring Resistance,0.68,II*,Context-Sensitive (Claude-Divergent),0.18,Structural/Semantic,
+P20,ReAct,0.59,III,Model-Specific,0.21,Structural/Semantic,
+P04,Visualization Generator,0.57,III,Model-Specific,0.23,Structural/Semantic,
+P22,Logic-of-Thought,0.56,III,Model-Specific,0.23,Structural/Semantic,
+P12,Flipped Interaction,0.54,III,Model-Specific,0.21,Pragmatic,
+P13,Game Play,0.51,III,Model-Specific,0.24,Pragmatic,
+P14,Infinite Generation,0.48,III,Model-Specific,0.25,Structural/Pragmatic,Corrected from IV: 0.48 >= 0.45 = Class III lower bound
+P01,Meta Language Creation,0.40,IV,Brittle,0.43,Semantic/Pragmatic,
+P11,Constraint Reframing,0.35,IV,Brittle,-0.38,Pragmatic,Inverted PSI: Claude 0.12 < open-weight 0.72

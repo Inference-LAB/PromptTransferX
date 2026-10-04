@@ -1,0 +1,25 @@
+pattern_id,pattern_name,transfer,ci_lower,ci_upper,restricted_transfer,restr_ci_lower,restr_ci_upper,psi,volatility_class,promptprism_level,notes
+P01,Meta Language Creation,0.40,0.34,0.47,0.60,0.53,0.67,0.43,IV,Semantic/Pragmatic,
+P02,Output Automater,0.74,0.68,0.79,0.82,0.77,0.86,0.15,II,Structural,
+P03,Persona,0.74,0.69,0.79,0.83,0.78,0.87,0.15,II,Semantic,
+P04,Visualization Generator,0.57,0.51,0.63,0.70,0.64,0.76,0.23,III,Structural/Semantic,
+P05,Recipe / Template,0.82,0.78,0.86,0.87,0.83,0.91,0.11,I,Structural,
+P06,Fact Check List,0.73,0.67,0.78,0.80,0.75,0.85,0.16,II,Structural,
+P07,Reflection,0.66,0.59,0.72,0.75,0.68,0.81,0.20,II*,Semantic/Pragmatic,Claude fingerprint on refusal-adjacent variants
+P08,Question Refinement,0.70,0.64,0.75,0.79,0.74,0.84,0.17,II,Structural,
+P09,Alternative Approaches,0.74,0.68,0.79,0.83,0.78,0.87,0.14,II,Structural,
+P10,Cognitive Verifier,0.66,0.60,0.72,0.79,0.74,0.84,0.17,II*,Structural,Claude fingerprint on refusal-adjacent sub-question variants
+P11,Constraint Reframing,0.35,0.26,0.44,0.47,0.38,0.56,-0.38,IV,Pragmatic,Inverted PSI: Claude 0.12 vs Mistral 0.72; Z=6.84 p<.001 r=0.87
+P12,Flipped Interaction,0.54,0.47,0.61,0.72,0.65,0.78,0.21,III,Pragmatic,
+P13,Game Play,0.51,0.44,0.59,0.68,0.61,0.75,0.24,III,Pragmatic,
+P14,Infinite Generation,0.48,0.40,0.56,0.64,0.56,0.72,0.25,III,Structural/Pragmatic,CORRECTED: was IV in earlier drafts; 0.48 >= 0.45 = Class III
+P15,Context Manager,0.78,0.73,0.82,0.84,0.79,0.88,0.14,I,Structural,
+P16,Context Ignoring Resistance,0.68,0.62,0.74,0.78,0.72,0.83,0.18,II*,Structural/Semantic,Claude fingerprint
+P17,Chain of Thought,0.73,0.67,0.78,0.86,0.82,0.90,0.12,II,Structural,
+P18,Auto-CoT,0.77,0.72,0.82,0.87,0.83,0.91,0.11,I,Structural,
+P19,Self-Consistency,0.71,0.65,0.77,0.85,0.81,0.89,0.13,II,Structural,
+P20,ReAct,0.59,0.53,0.66,0.74,0.67,0.80,0.21,III,Structural/Semantic,
+P21,Self-Refine,0.66,0.59,0.72,0.78,0.71,0.84,0.18,II*,Semantic/Pragmatic,Claude fingerprint; task-specific SP +0.05
+P22,Logic-of-Thought,0.56,0.49,0.63,0.71,0.64,0.77,0.23,III,Structural/Semantic,
+P23,Chain of Draft,0.75,0.69,0.80,0.86,0.82,0.90,0.12,I,Structural,
+P24,Narrative-of-Thought,0.60,0.53,0.67,0.74,0.67,0.80,0.22,II,Semantic/Structural,CORRECTED: was III in earlier drafts; 0.60 = lower bound of Class II

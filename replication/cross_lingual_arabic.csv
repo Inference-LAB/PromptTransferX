@@ -1,0 +1,8 @@
+pattern_id,pattern_name,primary_class,arabic_pts_gpt4o,arabic_pts_llama70b,english_pts_gpt4o,delta_gpt4o,arabic_transfer,interpretation
+P05,Recipe / Template,I,0.79,0.71,0.84,-0.05,0.90,Class I retained; within 0.05 of English PTS
+P15,Context Manager,I,~0.80,~0.72,0.85,~-0.05,~0.90,Class I retained; directionally consistent
+P18,Auto-CoT,I,~0.80,~0.75,0.84,~-0.04,~0.94,Class I retained; strong cross-lingual stability
+P23,Chain of Draft,I,~0.80,~0.74,0.84,~-0.04,~0.93,Class I retained
+P01,Meta Language Creation,IV,~0.37,~0.28,0.40,~-0.03,~0.76,Class IV retained; low absolute PTS cross-lingually
+P11,Constraint Reframing,IV,0.31,~0.30,0.34,-0.03,~0.97,Class IV retained; Claude fingerprint cross-linguistically stable
+P14,Infinite Generation,III,~0.44,~0.37,0.48,~-0.04,~0.84,Class III retained
